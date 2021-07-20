@@ -102,11 +102,11 @@ function App() {
       <Container>
               <Header>
                   <AppName> 
-                    <MovieImage src="/Movie-Icon.png"/>
+                    <MovieImage src="https://img.icons8.com/dusk/64/000000/movie-projector.png"/>
                     Movie-App
                   </AppName>
                   <SearchBox>
-                    <SearchIcon src="/SearchIcon.png"/>
+                    <SearchIcon src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/>
                     <SearchInput 
                     placeholder="Search Movie..." 
                     value ={SearchQuery}
@@ -131,7 +131,7 @@ function App() {
                               />
                               ))
                               ) : (
-                                <NotFound src= "/Movie-Icon.png" />
+                                <NotFound src= "https://img.icons8.com/dusk/64/000000/movie-projector.png"/>
                               )}
                   </MovieListContainer>
       </Container>  
